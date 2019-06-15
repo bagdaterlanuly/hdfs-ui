@@ -1,0 +1,51 @@
+.choice-box .label {
+            -fx-font-size: 14pt;
+             -fx-font-family: "Segoe UI Semibold";
+              -fx-text-fill: black;
+}
+.button{
+    -fx-font-size: 20pt;
+    -fx-pref-width: 100;
+    -fx-pref-height: 72;
+
+}
+
+.exitBnt{
+    -fx-font-size: 15pt;
+    -fx-text-fill: white;
+    -fx-background-color: #cc5b4f;
+
+}
+.exitBnt:pressed , .exitBnt:default:hover:pressed{
+    -fx-background-color: #72342e;
+}
+
+.delBnt{
+    -fx-font-size: 12pt;
+    -fx-text-fill: white;
+    -fx-background-color: #595959;
+}
+.delBnt:pressed, .delBnt:default:hover:pressed{
+-fx-background-color: #504d4d;
+
+}
+
+.okBnt{
+    -fx-font-size: 20pt;
+    -fx-text-fill: white;
+    -fx-background-color: #1abc9c;
+}
+
+.okBnt:pressed, .okBnt:default:hover:pressed{
+     -fx-background-color: #186556;
+ }
+
+ .textFieldError{
+   -fx-text-box-border: red ;
+   -fx-focus-color: red ;
+ }
+
+ .border {
+     -fx-border-color: #565656;
+     -fx-padding: 20 20 20 20;
+ }
